@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+.App{
+	
+	width: 80%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.graphbox1{
+	flex-basis: 100%;
+	border-radius: 8px;
+	box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.07);
+	background-color: #fff;
+	padding: 2%;
+}
+
+
+.titlebar2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.title2{
+	width: 20%;
+  	height: 73.6px;
+}
+
+.sandv1{
+	width: 107px;
+	height: 50px;
+	color: #161616;
+	margin-top: 25px;
+}
+
+.sandv2{
+	width: 85px;
+	height: 50px;
+	color: #161616;
+	margin-top: 25px;
+}
+
+.savx{
+	display: flex;
+	flex-wrap: wrap;
+}
+.activitybox{
+	flex-basis: 90%;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.07);
+	background-color: #fff;
+}
+
+.Rectangle-16837 {
+	width: 32px;
+	height: 4px;
+	margin: 34px 72px 0 1px;
+	border-radius: 2px;
+	background-image: linear-gradient(265deg, #7467f0 98%, #2896e9 0%);
   }
+
+.box2{
+	width: 96%;
+	border-radius: 8px;
+	box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.07);
+	background-color: #fff;
+	padding: 2%;
+	/* margin-left: 2%; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.singleactivity{
+	display: flex;
+	
 }
 
-.App-link {
-  color: #61dafb;
+.titlesx{
+	color: #161616;
+	font-size: 20px;
+	margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.subtitlesx{
+	color: #767676;
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+.activitytxt{
+	margin-left: 40px;
+}
+
+.Line-127 {
+	width: 2px;
+	height: 2px;
+	/* margin: 12.8px 78.7px 29.6px 15px; */
+	margin-left: 9px;
+	background-color: #535252;
+	border-bottom: 20px solid rgb(146, 144, 144);
+	
   }
-  to {
-    transform: rotate(360deg);
+
+
+  @media(min-width:750px)
+  {
+	  .box1{
+		  flex-wrap: nowrap;
+	  }
+	  .activitybox{
+		  flex-basis: 30%;
+	  }
+	  .graphbox1{
+		  flex-basis: 70%;
+	  }
+	  
   }
-}
+
+  @media(min-width:500px) {
+	.titlebar2{
+		flex-wrap: nowrap;
+	}
+	.savx{
+		flex-wrap: nowrap;
+	}
+  }

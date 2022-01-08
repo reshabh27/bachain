@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bachain/static/css/main.a939135a.css",
+    "main.js": "/bachain/static/js/main.46ea3879.js",
+    "static/js/787.e1f22658.chunk.js": "/bachain/static/js/787.e1f22658.chunk.js",
+    "index.html": "/bachain/index.html",
+    "main.a939135a.css.map": "/bachain/static/css/main.a939135a.css.map",
+    "main.46ea3879.js.map": "/bachain/static/js/main.46ea3879.js.map",
+    "787.e1f22658.chunk.js.map": "/bachain/static/js/787.e1f22658.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a939135a.css",
+    "static/js/main.46ea3879.js"
+  ]
+}
